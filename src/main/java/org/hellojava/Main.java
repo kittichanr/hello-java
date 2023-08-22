@@ -335,7 +335,28 @@ public class Main {
 //        }
 //
 // ------------------ Method -----------------------//
+//        String name = "Petch";
+//        int age = 26;
+//        hello(name, age);
+//
+//        int x = 3;
+//        int y = 4;
+//
+//        System.out.println(add(x, y));
 //
 //
+// ------------------ Overload method -----------------------//
+
+
     }
+
+    static void hello(String name, int age) {
+        System.out.println("Hello " + name);
+        System.out.println("You are " + age);
+    }
+
+    static int add(int x, int y) {
+        return x + y;
+    }
+
 }
