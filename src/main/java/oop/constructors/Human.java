@@ -1,4 +1,4 @@
-package constructors;
+package oop.constructors;
 
 public class Human {
     String name;
