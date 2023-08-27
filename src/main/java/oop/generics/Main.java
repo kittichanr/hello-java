@@ -29,13 +29,13 @@ public class Main {
 
         MyGenericClass<Integer, Integer> myInt = new MyGenericClass<>(1, 9);
         MyGenericClass<Double, Double> myDouble = new MyGenericClass<>(3.14, 1.01);
-        MyGenericClass<Character, Character> myChar = new MyGenericClass<>('@', '$');
-        MyGenericClass<String, Character> myString = new MyGenericClass<>("Hello", '!');
+//        MyGenericClass<Character, Character> myChar = new MyGenericClass<>('@', '$');
+//        MyGenericClass<String, Character> myString = new MyGenericClass<>("Hello", '!');
 
         System.out.println(myInt.getValue());
         System.out.println(myDouble.getValue());
-        System.out.println(myChar.getValue());
-        System.out.println(myString.getValue());
+//        System.out.println(myChar.getValue());
+//        System.out.println(myString.getValue());
 
 
         //bounded types = 	you can create the objects of a generic class to have data
